@@ -7,7 +7,7 @@ header{
     /* background-color: linear-gradient(0deg,rgb(180,80,30),rgb(180,200,30)); */
     /* background-color: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
     background-color: rgb(180,70,20);
-    height: 300px;
+    height: 16vw;
     text-align: center;
     padding-top: 30px;
     padding-bottom:0px;
@@ -15,7 +15,7 @@ header{
 }
 header h1{
     color:white;
-    font-size:6rem;
+    font-size:5vw;
 }
 header div{
     text-align: right;
@@ -25,20 +25,21 @@ header div{
 header a{
 
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.4vw;
     margin-right:50px;
+    margin-top:-50px;
 }
 .description p{
-    font-size: 3rem;
+    font-size: 3vw;
     color: white;
 }
 .description{
     text-align: center;
     /* width: 70%; */
-    height: 20rem;
+    height: 25vw;
     padding: auto;
     margin:auto;
-    margin-top:7rem;
+    margin-top:7vw;
 }
 
 .listing{
@@ -66,7 +67,7 @@ p{
     
 }
 .gallery div{
-    width: 100%;
+    width: 80vw;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap:20px;
@@ -102,7 +103,7 @@ a{
     font-size: 1.4rem;
 }
 #brickGallery div{
-    width: 100%;
+    width: 80vw;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-gap:20px;
