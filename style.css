@@ -2,13 +2,13 @@ body{
     margin:0px;
     margin-top:-30px;
 /*     background-color: rgb(120,50,10); */
-    background-image: linear-gradient(to right, rgb(140,60,12), rgb(50,12,6));
+    background-image: linear-gradient(to right, rgb(140,60,12), rgb(60,14,8));
 }
 header{
     /* background-color: linear-gradient(0deg,rgb(180,80,30),rgb(180,200,30)); */
     /* background-color: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
 /*     background-color: rgb(180,70,20); */
-    background-image: linear-gradient(to top, rgb(180,70,20), rgb(90,25,10));
+    background-image: linear-gradient(to top, rgb(180,70,20), rgb(100,30,12));
     height: 16vw;
     text-align: center;
     padding-top: 30px;
