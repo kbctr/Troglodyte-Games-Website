@@ -114,3 +114,13 @@ a{
     padding-bottom:5vw;
     flex: none;
 }
+#tdGallery div{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap:1vw;
+    padding:.5vw;
+    padding-top:5vw;
+    padding-bottom:5vw;
+    flex: none;
+}
