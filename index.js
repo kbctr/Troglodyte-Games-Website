@@ -48,3 +48,21 @@ bForwardBtn.addEventListener("click", ()=>{
     bScrollContainer.style.scrollBehaviour = "smooth";
     bScrollContainer.scrollLeft+= 300;
 })
+
+
+let tdScrollContainer = document.querySelector("#tdGallery");
+let tdBackBtn = document.querySelector("#tdBackBtn");
+let tdForwardBtn = document.querySelector("#tdForwardBtn");
+
+tdScrollContainer.addEventListener("wheel", (e)=>{
+    e.preventDefault();
+    tdScrollContainer.scrollLeft += e.deltaY;
+})
+tdBackBtn.addEventListener("click", ()=>{
+    tdScrollContainer.style.scrollBehaviour = "smooth";
+    tdScrollContainer.scrollLeft -= 300;
+})
+tdForwardBtn.addEventListener("click", ()=>{
+    tdScrollContainer.style.scrollBehaviour = "smooth";
+    tdScrollContainer.scrollLeft+= 300;
+})
